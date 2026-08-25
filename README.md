@@ -109,15 +109,17 @@ LOGFIRE_CONSOLE=false
 LOGFIRE_PYDANTIC_RECORD=failure
 ```
 
-| 变量 | 说明 |
-|------|------|
-| `LOGFIRE_ENABLED` | 设为 `false` 可完全关闭上报；未设置时，有 token 则自动启用 |
-| `LOGFIRE_TOKEN` | Logfire 控制台 → **hall-agent** → Settings → **Write token**；CI/容器部署必填 |
-| `LOGFIRE_BASE_URL` | 美区实例，保持 `https://logfire-us.pydantic.dev` |
-| `LOGFIRE_SERVICE_NAME` | 在 Live 中按 `service.name` 过滤，默认 `hall-agent` |
-| `LOGFIRE_ENVIRONMENT` | 环境标签，如 `local`、`staging`、`production` |
-| `LOGFIRE_CONSOLE` | 设为 `true` 可在终端同步输出 span（调试用） |
-| `LOGFIRE_PYDANTIC_RECORD` | Pydantic 校验埋点粒度，默认 `failure` 仅记录失败 |
+
+| 变量                        | 说明                                                                  |
+| ------------------------- | ------------------------------------------------------------------- |
+| `LOGFIRE_ENABLED`         | 设为 `false` 可完全关闭上报；未设置时，有 token 则自动启用                               |
+| `LOGFIRE_TOKEN`           | Logfire 控制台 → **hall-agent** → Settings → **Write token**；CI/容器部署必填 |
+| `LOGFIRE_BASE_URL`        | 美区实例，保持 `https://logfire-us.pydantic.dev`                           |
+| `LOGFIRE_SERVICE_NAME`    | 在 Live 中按 `service.name` 过滤，默认 `hall-agent`                         |
+| `LOGFIRE_ENVIRONMENT`     | 环境标签，如 `local`、`staging`、`production`                               |
+| `LOGFIRE_CONSOLE`         | 设为 `true` 可在终端同步输出 span（调试用）                                        |
+| `LOGFIRE_PYDANTIC_RECORD` | Pydantic 校验埋点粒度，默认 `failure` 仅记录失败                                  |
+
 
 **本地开发** 二选一：
 
@@ -192,3 +194,4 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -q
 - [动态记录与提醒系统设计](docs/动态记录与提醒系统设计.md)
 - [企业微信端到端测试指南](docs/企业微信端到端测试指南.md)
 - [模型输入快照实现说明](docs/模型输入快照实现说明.md)
+
