@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>本地调试 · Record Agent</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #f3f1ec;
+      --panel: #fffdf9;
+      --ink: #1c1a17;
+      --muted: #6b6560;
+      --line: #ddd6cb;
+      --accent: #0f6e56;
+      --accent-soft: #d8efe6;
+      --user: #e8f0ff;
+      --bot: #f7f5f1;
+      --warn: #8a5a00;
+      --warn-bg: #fff4d6;
+      --danger: #9b2c2c;
+      --radius: 12px;
+      --font: "IBM Plex Sans", "Noto Sans SC", "Segoe UI", sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #d9efe6 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #efe6d4 0%, transparent 50%),
+        var(--bg);
+    }
+    .shell {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px 16px 28px;
+      display: grid;
+      gap: 14px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: end;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .badge {
+      font-size: 0.78rem;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    label {
+      display: grid;
+      gap: 4px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    input, select, textarea, button {
+      font: inherit;
+    }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      background: #fff;
+      color: var(--ink);
+    }
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 8px 12px;
+      background: var(--accent);
+      color: #fff;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #ece7df;
+      color: var(--ink);
+    }
+    button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 14px;
+    }
+    .chat {
+      display: flex;
+      flex-direction: column;
+      min-height: 62vh;
+      max-height: 72vh;
+    }
+    .messages {
+      flex: 1;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 4px;
+    }
+    .msg {
+      max-width: 92%;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      line-height: 1.45;
+      font-size: 0.95rem;
+    }
+    .msg.user {
+      align-self: flex-end;
+      background: var(--user);
+    }
+    .msg.assistant {
+      align-self: flex-start;
+      background: var(--bot);
+    }
+    .msg .role {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+      font-family: var(--mono);
+    }
+    .msg .body p { margin: 0 0 0.55em; }
+    .msg .body p:last-child { margin-bottom: 0; }
+    .msg .body pre {
+      overflow: auto;
+      background: #1f1c19;
+      color: #f6f1ea;
+      padding: 8px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+    }
+    .msg .body code {
+      font-family: var(--mono);
+      font-size: 0.86em;
+    }
+    .composer {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .composer textarea {
+      min-height: 88px;
+      resize: vertical;
+    }
+    .status {
+      min-height: 1.2em;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    .status.error { color: var(--danger); }
+    .outbox-item {
+      border: 1px solid #efd59a;
+      background: var(--warn-bg);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 8px;
+    }
+    .outbox-item .meta {
+      font-size: 0.75rem;
+      color: var(--warn);
+      font-family: var(--mono);
+      margin-bottom: 6px;
+    }
+    .outbox-item .content {
+      white-space: pre-wrap;
+      font-size: 0.9rem;
+    }
+    .empty {
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 8px 0;
+    }
+    @media (max-width: 840px) {
+      .controls { grid-template-columns: 1fr 1fr; }
+      .layout { grid-template-columns: 1fr; }
+      .chat { max-height: none; min-height: 50vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <h1>本地调试台</h1>
+        <p>不连企业微信 · 直接调用同一套 <code>run_agent</code></p>
+      </div>
+      <div class="badge" id="modeBadge">检查中…</div>
+    </header>
+
+    <section class="panel">
+      <div class="controls">
+        <label>会话类型
+          <select id="chatType">
+            <option value="single">单聊</option>
+            <option value="group">群聊</option>
+          </select>
+        </label>
+        <label>user_id
+          <input id="userId" value="local_user" />
+        </label>
+        <label>chat_id
+          <input id="chatId" value="local_user" />
+        </label>
+        <label>快捷
+          <select id="preset">
+            <option value="">自定义</option>
+            <option value="dm">单聊默认</option>
+            <option value="group">群聊默认</option>
+          </select>
+        </label>
+      </div>
+      <div class="actions">
+        <button class="secondary" id="reloadHistory" type="button">加载历史</button>
+        <button class="secondary" id="flushReminders" type="button">触发到期提醒</button>
+        <button class="secondary" id="refreshOutbox" type="button">刷新待推送</button>
+        <button class="secondary" id="ackAll" type="button">全部已读</button>
+      </div>
+    </section>
+
+    <div class="layout">
+      <section class="panel chat">
+        <div class="messages" id="messages">
+          <div class="empty">发送一条消息开始测试。</div>
+        </div>
+        <div class="composer">
+          <textarea id="input" placeholder="例如：帮我建一张访客登记表"></textarea>
+          <div class="actions">
+            <button id="send" type="button">发送</button>
+          </div>
+          <div class="status" id="status"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2 style="margin:0 0 8px;font-size:1rem;">本应推送的提醒</h2>
+        <p style="margin:0 0 10px;color:var(--muted);font-size:0.85rem;">
+          本地模式到期提醒写入库后会出现在这里，不会发到企业微信。
+        </p>
+        <div id="outbox"><div class="empty">暂无待推送。</div></div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const els = {
+      chatType: document.getElementById("chatType"),
+      userId: document.getElementById("userId"),
+      chatId: document.getElementById("chatId"),
+      preset: document.getElementById("preset"),
+      messages: document.getElementById("messages"),
+      input: document.getElementById("input"),
+      send: document.getElementById("send"),
+      status: document.getElementById("status"),
+      outbox: document.getElementById("outbox"),
+      modeBadge: document.getElementById("modeBadge"),
+    };
+
+    function renderMarkdown(text) {
+      if (window.marked && typeof marked.parse === "function") {
+        return marked.parse(text || "", { breaks: true });
+      }
+      const escaped = (text || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+      return `<pre style="white-space:pre-wrap;margin:0;font:inherit">${escaped}</pre>`;
+    }
+
+    function scopeParams() {
+      return {
+        user_id: els.userId.value.trim() || "local_user",
+        chat_id: els.chatId.value.trim(),
+        chat_type: els.chatType.value,
+      };
+    }
+
+    function setStatus(text, isError = false) {
+      els.status.textContent = text || "";
+      els.status.classList.toggle("error", isError);
+    }
+
+    function renderMessages(items) {
+      if (!items.length) {
+        els.messages.innerHTML = `<div class="empty">暂无历史消息。</div>`;
+        return;
+      }
+      els.messages.innerHTML = items.map((item) => `
+        <div class="msg ${item.role}">
+          <div class="role">${item.role === "user" ? "你" : "助手"}</div>
+          <div class="body">${renderMarkdown(item.content)}</div>
+        </div>
+      `).join("");
+      els.messages.scrollTop = els.messages.scrollHeight;
+    }
+
+    function appendMessage(role, content) {
+      const empty = els.messages.querySelector(".empty");
+      if (empty) empty.remove();
+      const node = document.createElement("div");
+      node.className = `msg ${role}`;
+      node.innerHTML = `
+        <div class="role">${role === "user" ? "你" : "助手"}</div>
+        <div class="body">${renderMarkdown(content)}</div>
+      `;
+      els.messages.appendChild(node);
+      els.messages.scrollTop = els.messages.scrollHeight;
+    }
+
+    async function loadHealth() {
+      try {
+        const res = await fetch("/health");
+        const data = await res.json();
+        const wecom = data.enable_wecom_bot ? "企微开启" : "企微关闭";
+        els.modeBadge.textContent = `${wecom} · ${data.data_dir || ""}`;
+      } catch (err) {
+        els.modeBadge.textContent = "健康检查失败";
+      }
+    }
+
+    async function loadHistory() {
+      const params = new URLSearchParams(scopeParams());
+      setStatus("加载历史…");
+      try {
+        const res = await fetch(`/api/chat/history?${params}`);
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "加载失败");
+        renderMessages(data.messages || []);
+        setStatus(`已加载 ${data.messages?.length || 0} 条 · scope=${data.scope_type}/${data.scope_id}`);
+      } catch (err) {
+        setStatus(String(err.message || err), true);
+      }
+    }
+
+    async function sendMessage() {
+      const content = els.input.value.trim();
+      if (!content) return;
+      const payload = { ...scopeParams(), content };
+      els.send.disabled = true;
+      appendMessage("user", content);
+      els.input.value = "";
+      setStatus("处理中…");
+      try {
+        const res = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(typeof data.detail === "string" ? data.detail : JSON.stringify(data.detail));
+        appendMessage("assistant", data.reply || "");
+        setStatus(`完成 · message_id=${data.message_id}`);
+        await loadOutbox();
+      } catch (err) {
+        setStatus(String(err.message || err), true);
+      } finally {
+        els.send.disabled = false;
+        els.input.focus();
+      }
+    }
+
+    async function loadOutbox() {
+      try {
+        const res = await fetch("/api/local/push-outbox?pending_only=true");
+        const data = await res.json();
+        const items = data.items || [];
+        if (!items.length) {
+          els.outbox.innerHTML = `<div class="empty">暂无待推送。</div>`;
+          return;
+        }
+        els.outbox.innerHTML = items.map((item) => `
+          <div class="outbox-item" data-id="${item.outbox_id}">
+            <div class="meta">${item.scope_type}/${item.scope_id} · ${item.created_at}</div>
+            <div class="content">${(item.content || "").replaceAll("<", "&lt;")}</div>
+            <div class="actions">
+              <button class="secondary ack-one" type="button" data-id="${item.outbox_id}">已读</button>
+            </div>
+          </div>
+        `).join("");
+        els.outbox.querySelectorAll(".ack-one").forEach((btn) => {
+          btn.addEventListener("click", () => ackOutbox(btn.dataset.id));
+        });
+      } catch (err) {
+        els.outbox.innerHTML = `<div class="empty">加载失败：${String(err.message || err)}</div>`;
+      }
+    }
+
+    async function ackOutbox(outboxId = null) {
+      await fetch("/api/local/push-outbox/ack", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ outbox_id: outboxId }),
+      });
+      await loadOutbox();
+    }
+
+    async function flushReminders() {
+      setStatus("触发到期提醒…");
+      try {
+        const res = await fetch("/api/admin/send-reminders", { method: "POST" });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "触发失败");
+        setStatus("已触发提醒发送任务");
+        await loadOutbox();
+      } catch (err) {
+        setStatus(String(err.message || err), true);
+      }
+    }
+
+    function applyPreset() {
+      const value = els.preset.value;
+      if (value === "dm") {
+        els.chatType.value = "single";
+        els.userId.value = "local_user";
+        els.chatId.value = "local_user";
+      } else if (value === "group") {
+        els.chatType.value = "group";
+        els.userId.value = "local_user";
+        els.chatId.value = "local_group";
+      }
+      loadHistory();
+    }
+
+    els.chatType.addEventListener("change", () => {
+      if (els.chatType.value === "single" && !els.chatId.value.trim()) {
+        els.chatId.value = els.userId.value.trim() || "local_user";
+      }
+      if (els.chatType.value === "group" && els.chatId.value === els.userId.value) {
+        els.chatId.value = "local_group";
+      }
+    });
+    els.preset.addEventListener("change", applyPreset);
+    document.getElementById("reloadHistory").addEventListener("click", loadHistory);
+    document.getElementById("flushReminders").addEventListener("click", flushReminders);
+    document.getElementById("refreshOutbox").addEventListener("click", loadOutbox);
+    document.getElementById("ackAll").addEventListener("click", () => ackOutbox(null));
+    els.send.addEventListener("click", sendMessage);
+    els.input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        sendMessage();
+      }
+    });
+
+    loadHealth();
+    loadHistory();
+    loadOutbox();
+    setInterval(loadOutbox, 15000);
+  </script>
+</body>
+</html>

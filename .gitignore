@@ -1,0 +1,14 @@
+data/*.db
+data/**/*.db
+data/model_input_snapshots/
+data/logs/
+data/e2e/
+.run/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.env
+.logfire/
+.agents/
+.codex/
+.venv/

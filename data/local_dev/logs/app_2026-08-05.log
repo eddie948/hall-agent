@@ -1,0 +1,843 @@
+2026-08-05 14:51:26,283 [INFO] uvicorn.error: Started server process [58049]
+2026-08-05 14:51:26,284 [INFO] uvicorn.error: Waiting for application startup.
+2026-08-05 14:51:26,537 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-05 14:51:26,537 [INFO] apscheduler.scheduler: Added job "reminder_sender_job" to job store "default"
+2026-08-05 14:51:26,537 [INFO] apscheduler.scheduler: Scheduler started
+2026-08-05 14:51:26,539 [INFO] src.bot.wecom_bot: ENABLE_WECOM_BOT=false，跳过企业微信机器人启动
+2026-08-05 14:51:26,539 [INFO] uvicorn.error: Application startup complete.
+2026-08-05 14:51:26,540 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8101 (Press CTRL+C to quit)
+2026-08-05 14:53:06,369 [INFO] uvicorn.access: 127.0.0.1:40586 - "GET / HTTP/1.1" 200
+2026-08-05 14:53:06,382 [INFO] uvicorn.access: 127.0.0.1:40586 - "GET /health HTTP/1.1" 200
+2026-08-05 14:53:06,384 [INFO] uvicorn.access: 127.0.0.1:40600 - "GET /api/chat/history?user_id=local_user&chat_id=local_user&chat_type=single HTTP/1.1" 200
+2026-08-05 14:53:06,385 [INFO] uvicorn.access: 127.0.0.1:40602 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:53:06,594 [INFO] uvicorn.access: 127.0.0.1:40602 - "GET /favicon.ico HTTP/1.1" 404
+2026-08-05 14:53:21,386 [INFO] uvicorn.access: 127.0.0.1:36368 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:53:36,401 [INFO] uvicorn.access: 127.0.0.1:45066 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:53:43,445 [WARNING] src.agent.brain: 智能体不可用: 未配置 DASHSCOPE_API_KEY
+2026-08-05 14:53:43,454 [INFO] uvicorn.access: 127.0.0.1:45070 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 14:53:43,460 [INFO] uvicorn.access: 127.0.0.1:45070 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:53:51,397 [INFO] uvicorn.access: 127.0.0.1:56230 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:54:06,387 [INFO] uvicorn.access: 127.0.0.1:46182 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:54:21,449 [INFO] uvicorn.access: 127.0.0.1:54208 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:54:36,454 [INFO] uvicorn.access: 127.0.0.1:45878 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:54:51,456 [INFO] uvicorn.access: 127.0.0.1:55132 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:55:06,456 [INFO] uvicorn.access: 127.0.0.1:35464 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:55:45,261 [INFO] uvicorn.error: Shutting down
+2026-08-05 14:55:45,362 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-08-05 14:55:45,362 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-08-05 14:55:45,363 [INFO] uvicorn.error: Application shutdown complete.
+2026-08-05 14:55:45,363 [INFO] uvicorn.error: Finished server process [58049]
+2026-08-05 14:56:24,114 [INFO] uvicorn.error: Started server process [59162]
+2026-08-05 14:56:24,114 [INFO] uvicorn.error: Waiting for application startup.
+2026-08-05 14:56:24,122 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-05 14:56:24,122 [INFO] apscheduler.scheduler: Added job "reminder_sender_job" to job store "default"
+2026-08-05 14:56:24,122 [INFO] apscheduler.scheduler: Scheduler started
+2026-08-05 14:56:24,123 [INFO] src.bot.wecom_bot: ENABLE_WECOM_BOT=false，跳过企业微信机器人启动
+2026-08-05 14:56:24,123 [INFO] uvicorn.error: Application startup complete.
+2026-08-05 14:56:24,124 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8101 (Press CTRL+C to quit)
+2026-08-05 14:56:43,504 [INFO] uvicorn.access: 127.0.0.1:53490 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:56:51,396 [INFO] uvicorn.access: 127.0.0.1:53496 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:56:52,362 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_b554c32cae294d28'} actor=user1 scope=user:user1
+2026-08-05 14:56:52,363 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 14:56:59,278 [INFO] uvicorn.access: 127.0.0.1:53490 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 14:56:59,317 [INFO] uvicorn.access: 127.0.0.1:53490 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:57:06,458 [INFO] uvicorn.access: 127.0.0.1:40278 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:57:21,451 [INFO] uvicorn.access: 127.0.0.1:58930 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:57:36,455 [INFO] uvicorn.access: 127.0.0.1:38098 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:57:51,448 [INFO] uvicorn.access: 127.0.0.1:53336 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:58:30,046 [INFO] uvicorn.access: 127.0.0.1:47920 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:58:36,399 [INFO] uvicorn.access: 127.0.0.1:49818 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:58:51,390 [INFO] uvicorn.access: 127.0.0.1:51580 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:59:06,398 [INFO] uvicorn.access: 127.0.0.1:51866 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:59:07,986 [INFO] uvicorn.access: 127.0.0.1:51860 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 14:59:07,992 [INFO] uvicorn.access: 127.0.0.1:51860 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:59:21,388 [INFO] uvicorn.access: 127.0.0.1:52358 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:59:36,391 [INFO] uvicorn.access: 127.0.0.1:43902 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 14:59:51,399 [INFO] uvicorn.access: 127.0.0.1:53546 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:00:06,387 [INFO] uvicorn.access: 127.0.0.1:60070 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:00:21,393 [INFO] uvicorn.access: 127.0.0.1:36720 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:00:36,397 [INFO] uvicorn.access: 127.0.0.1:42506 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:00:51,390 [INFO] uvicorn.access: 127.0.0.1:46046 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:01:06,105 [INFO] uvicorn.access: 127.0.0.1:49690 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:01:19,874 [INFO] uvicorn.access: 127.0.0.1:44458 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:01:34,873 [INFO] uvicorn.access: 127.0.0.1:57904 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:01:49,876 [INFO] uvicorn.access: 127.0.0.1:36052 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:02:04,936 [INFO] uvicorn.access: 127.0.0.1:45846 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:02:19,940 [INFO] uvicorn.access: 127.0.0.1:60312 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:02:34,938 [INFO] uvicorn.access: 127.0.0.1:33838 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:02:49,936 [INFO] uvicorn.access: 127.0.0.1:54292 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:03:50,935 [INFO] uvicorn.access: 127.0.0.1:55776 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:04:51,929 [INFO] uvicorn.access: 127.0.0.1:42148 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:05:52,934 [INFO] uvicorn.access: 127.0.0.1:42616 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:06:53,932 [INFO] uvicorn.access: 127.0.0.1:50454 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:07:54,943 [INFO] uvicorn.access: 127.0.0.1:35374 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:08:54,945 [INFO] uvicorn.access: 127.0.0.1:40478 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:09:54,942 [INFO] uvicorn.access: 127.0.0.1:40340 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:10:06,876 [INFO] uvicorn.access: 127.0.0.1:51658 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:10:19,872 [INFO] uvicorn.access: 127.0.0.1:58794 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:10:34,882 [INFO] uvicorn.access: 127.0.0.1:58998 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:10:37,590 [INFO] uvicorn.access: 127.0.0.1:60650 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:10:37,597 [INFO] uvicorn.access: 127.0.0.1:60650 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:10:49,880 [INFO] uvicorn.access: 127.0.0.1:36572 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:11:04,867 [INFO] uvicorn.access: 127.0.0.1:40036 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:11:19,873 [INFO] uvicorn.access: 127.0.0.1:59676 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:11:34,868 [INFO] uvicorn.access: 127.0.0.1:39976 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:11:49,881 [INFO] uvicorn.access: 127.0.0.1:45676 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:12:04,878 [INFO] uvicorn.access: 127.0.0.1:34234 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:12:19,873 [INFO] uvicorn.access: 127.0.0.1:60322 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:12:34,880 [INFO] uvicorn.access: 127.0.0.1:48568 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:12:49,878 [INFO] uvicorn.access: 127.0.0.1:42460 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:13:04,872 [INFO] uvicorn.access: 127.0.0.1:45574 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:13:19,870 [INFO] uvicorn.access: 127.0.0.1:39636 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:13:34,876 [INFO] uvicorn.access: 127.0.0.1:56012 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:13:49,880 [INFO] uvicorn.access: 127.0.0.1:55732 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:14:04,874 [INFO] uvicorn.access: 127.0.0.1:44430 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:14:19,875 [INFO] uvicorn.access: 127.0.0.1:46394 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:14:34,876 [INFO] uvicorn.access: 127.0.0.1:45180 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:14:49,869 [INFO] uvicorn.access: 127.0.0.1:55054 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:15:04,878 [INFO] uvicorn.access: 127.0.0.1:37336 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:15:19,871 [INFO] uvicorn.access: 127.0.0.1:50622 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:15:26,320 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_b554c32cae294d28'} actor=user1 scope=user:user1
+2026-08-05 15:15:26,321 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:15:31,123 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_b554c32cae294d28', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-11'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[], limit=20, cursor=None)} actor=user1 scope=user:user1
+2026-08-05 15:15:31,124 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:15:34,871 [INFO] uvicorn.access: 127.0.0.1:53242 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:15:37,900 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_b554c32cae294d28', values={'reception_location': '深圳福田', 'visit_date': '2026-08-11', 'visit_start_time': '15:00', 'visit_end_time': '16:00', 'visiting_unit': '腾讯科技', 'main_visitor': '张三，总监', 'visitor_count': '5人', 'exhibition_hall': '是', 'meeting_room': 'VIP接待室', 'supporting_materials': '宣传册、瓶装水', 'internal_hosts': ['李四', '王五']}, raw_text='')} actor=user1 scope=user:user1
+2026-08-05 15:15:37,918 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 15:15:44,482 [INFO] uvicorn.access: 127.0.0.1:50622 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:15:44,489 [INFO] uvicorn.access: 127.0.0.1:59946 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:15:49,877 [INFO] uvicorn.access: 127.0.0.1:59950 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:16:04,878 [INFO] uvicorn.access: 127.0.0.1:43550 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:16:19,869 [INFO] uvicorn.access: 127.0.0.1:53164 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:16:34,873 [INFO] uvicorn.access: 127.0.0.1:34224 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:16:44,735 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_f9c63f5aa2ee4612', 'expected_version': 1} actor=user1 scope=user:user1
+2026-08-05 15:16:44,752 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 15:16:49,564 [INFO] uvicorn.access: 127.0.0.1:34234 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:16:49,569 [INFO] uvicorn.access: 127.0.0.1:34234 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:16:49,874 [INFO] uvicorn.access: 127.0.0.1:34234 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:17:04,866 [INFO] uvicorn.access: 127.0.0.1:50504 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:17:19,876 [INFO] uvicorn.access: 127.0.0.1:46624 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:17:31,022 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_b554c32cae294d28'} actor=user1 scope=user:user1
+2026-08-05 15:17:31,023 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:17:34,881 [INFO] uvicorn.access: 127.0.0.1:50002 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:17:35,531 [INFO] uvicorn.access: 127.0.0.1:47086 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:17:35,535 [INFO] uvicorn.access: 127.0.0.1:47086 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:17:49,882 [INFO] uvicorn.access: 127.0.0.1:33356 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:04,873 [INFO] uvicorn.access: 127.0.0.1:54332 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:11,299 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_b554c32cae294d28'} actor=user1 scope=user:user1
+2026-08-05 15:18:11,300 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:18:16,715 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_b554c32cae294d28', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='reception_location', operator='eq', value='深圳福田'), RecordFilter(field_key='visit_date', operator='gte', value='2026-08-10'), RecordFilter(field_key='visit_date', operator='lte', value='2026-08-16')], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user1 scope=user:user1
+2026-08-05 15:18:16,717 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:18:19,879 [INFO] uvicorn.access: 127.0.0.1:50208 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:21,335 [INFO] uvicorn.access: 127.0.0.1:54332 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:18:21,340 [INFO] uvicorn.access: 127.0.0.1:54332 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:34,867 [INFO] uvicorn.access: 127.0.0.1:52212 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:48,283 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_d732decd26244ee6'} actor=user2 scope=user:user2
+2026-08-05 15:18:48,283 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:18:49,872 [INFO] uvicorn.access: 127.0.0.1:43066 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:18:53,734 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_d732decd26244ee6', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='gte', value='2026-08-10'), RecordFilter(field_key='visit_date', operator='lte', value='2026-08-16'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user2 scope=user:user2
+2026-08-05 15:18:53,736 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:18:57,799 [INFO] uvicorn.access: 127.0.0.1:43056 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:18:57,806 [INFO] uvicorn.access: 127.0.0.1:43056 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:19:04,869 [INFO] uvicorn.access: 127.0.0.1:48714 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:19:19,872 [INFO] uvicorn.access: 127.0.0.1:49620 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:19:34,879 [INFO] uvicorn.access: 127.0.0.1:40810 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:19:49,872 [INFO] uvicorn.access: 127.0.0.1:35120 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:04,880 [INFO] uvicorn.access: 127.0.0.1:47876 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:11,884 [INFO] uvicorn.access: 127.0.0.1:47876 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:20:11,888 [INFO] uvicorn.access: 127.0.0.1:47876 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:19,866 [INFO] uvicorn.access: 127.0.0.1:45550 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:33,346 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_2f03bcb669e74d43'} actor=user3 scope=group:chat1
+2026-08-05 15:20:33,347 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:20:34,869 [INFO] uvicorn.access: 127.0.0.1:33580 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:39,111 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_2f03bcb669e74d43', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='reception_location', operator='eq', value='深圳福田'), RecordFilter(field_key='visit_date', operator='gte', value='2026-08-10'), RecordFilter(field_key='visit_date', operator='lte', value='2026-08-16')], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user3 scope=group:chat1
+2026-08-05 15:20:39,112 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:20:41,928 [INFO] uvicorn.access: 127.0.0.1:54712 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:20:41,933 [INFO] uvicorn.access: 127.0.0.1:54712 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:20:49,866 [INFO] uvicorn.access: 127.0.0.1:33824 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:21:00,310 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_2f03bcb669e74d43'} actor=user1 scope=group:chat1
+2026-08-05 15:21:00,310 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:21:04,868 [INFO] uvicorn.access: 127.0.0.1:57656 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:21:07,326 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_2f03bcb669e74d43', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='reception_location', operator='eq', value='深圳福田'), RecordFilter(field_key='visit_date', operator='gte', value='2026-08-10'), RecordFilter(field_key='visit_date', operator='lte', value='2026-08-16')], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user1 scope=group:chat1
+2026-08-05 15:21:07,327 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:21:09,942 [INFO] uvicorn.access: 127.0.0.1:43776 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:21:09,946 [INFO] uvicorn.access: 127.0.0.1:43776 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:21:19,876 [INFO] uvicorn.access: 127.0.0.1:42374 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:21:34,874 [INFO] uvicorn.access: 127.0.0.1:45460 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:21:49,867 [INFO] uvicorn.access: 127.0.0.1:40236 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:22:04,875 [INFO] uvicorn.access: 127.0.0.1:34688 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:22:19,872 [INFO] uvicorn.access: 127.0.0.1:48134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:22:22,786 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_2f03bcb669e74d43'} actor=user1 scope=group:chat1
+2026-08-05 15:22:22,786 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:22:27,589 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_2f03bcb669e74d43', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='reception_location', operator='eq', value='深圳福田'), RecordFilter(field_key='visit_date', operator='eq', value='2026-08-11')], sort=[], limit=20, cursor=None)} actor=user1 scope=group:chat1
+2026-08-05 15:22:27,590 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:22:32,590 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_2f03bcb669e74d43', values={'reception_location': '深圳福田', 'visit_date': '2026-08-11', 'visit_start_time': '15:00:00', 'visit_end_time': '16:00:00', 'visiting_unit': '腾讯科技', 'main_visitor': '张三 总监', 'visitor_count': '5', 'exhibition_hall': '是', 'meeting_room': 'VIP接待室', 'supporting_materials': '宣传册、瓶装水', 'internal_hosts': ['李四', '王五']}, raw_text='')} actor=user1 scope=group:chat1
+2026-08-05 15:22:32,607 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 15:22:34,872 [INFO] uvicorn.access: 127.0.0.1:42982 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:22:37,138 [INFO] uvicorn.access: 127.0.0.1:48134 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:22:37,143 [INFO] uvicorn.access: 127.0.0.1:48134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:22:49,881 [INFO] uvicorn.access: 127.0.0.1:50076 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:02,376 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_adddc1c2a28b4cd1', 'expected_version': 1} actor=user1 scope=group:chat1
+2026-08-05 15:23:02,394 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 15:23:04,880 [INFO] uvicorn.access: 127.0.0.1:50066 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:07,091 [INFO] uvicorn.access: 127.0.0.1:46480 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:23:07,096 [INFO] uvicorn.access: 127.0.0.1:46480 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:14,775 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record args={'record_id': 'REC_adddc1c2a28b4cd1'} actor=user1 scope=group:chat1
+2026-08-05 15:23:14,775 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record success=True
+2026-08-05 15:23:18,236 [INFO] src.agent.capabilities: Agent工具调用: tool=update_record args={'data': UpdateRecordInput(record_id='REC_adddc1c2a28b4cd1', expected_version=2, values={'exhibition_status': '准备就绪'}, unset_fields=[])} actor=user1 scope=group:chat1
+2026-08-05 15:23:18,247 [INFO] src.agent.capabilities: Agent工具完成: tool=update_record success=True
+2026-08-05 15:23:19,872 [INFO] uvicorn.access: 127.0.0.1:37798 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:21,573 [INFO] uvicorn.access: 127.0.0.1:46480 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:23:21,577 [INFO] uvicorn.access: 127.0.0.1:46480 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:34,869 [INFO] uvicorn.access: 127.0.0.1:43190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:23:49,873 [INFO] uvicorn.access: 127.0.0.1:42656 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:24:04,866 [INFO] uvicorn.access: 127.0.0.1:46102 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:24:19,874 [INFO] uvicorn.access: 127.0.0.1:38532 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:24:34,882 [INFO] uvicorn.access: 127.0.0.1:46614 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:24:49,874 [INFO] uvicorn.access: 127.0.0.1:55226 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:25:04,877 [INFO] uvicorn.access: 127.0.0.1:46554 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:25:19,869 [INFO] uvicorn.access: 127.0.0.1:51632 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:25:34,881 [INFO] uvicorn.access: 127.0.0.1:36304 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:25:49,867 [INFO] uvicorn.access: 127.0.0.1:55874 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:26:04,880 [INFO] uvicorn.access: 127.0.0.1:50718 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:26:13,726 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record args={'record_id': 'REC_adddc1c2a28b4cd1'} actor=user1 scope=group:chat1
+2026-08-05 15:26:13,726 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record success=True
+2026-08-05 15:26:18,020 [INFO] src.agent.capabilities: Agent工具调用: tool=update_record args={'data': UpdateRecordInput(record_id='REC_adddc1c2a28b4cd1', expected_version=3, values={'visit_start_time': '16:00', 'visit_end_time': '17:00'}, unset_fields=[])} actor=user1 scope=group:chat1
+2026-08-05 15:26:18,030 [INFO] src.agent.capabilities: Agent工具完成: tool=update_record success=True
+2026-08-05 15:26:19,869 [INFO] uvicorn.access: 127.0.0.1:51700 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:26:21,415 [INFO] uvicorn.access: 127.0.0.1:50726 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:26:21,420 [INFO] uvicorn.access: 127.0.0.1:50726 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:26:34,878 [INFO] uvicorn.access: 127.0.0.1:35484 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:26:49,866 [INFO] uvicorn.access: 127.0.0.1:58308 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:27:04,868 [INFO] uvicorn.access: 127.0.0.1:37980 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:27:19,881 [INFO] uvicorn.access: 127.0.0.1:46710 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:27:29,446 [INFO] uvicorn.access: 127.0.0.1:59834 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:27:29,450 [INFO] uvicorn.access: 127.0.0.1:59834 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:27:34,868 [INFO] uvicorn.access: 127.0.0.1:36278 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:27:49,869 [INFO] uvicorn.access: 127.0.0.1:58444 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:04,877 [INFO] uvicorn.access: 127.0.0.1:34974 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:18,405 [INFO] uvicorn.access: 127.0.0.1:39412 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:28:18,410 [INFO] uvicorn.access: 127.0.0.1:39412 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:19,864 [INFO] uvicorn.access: 127.0.0.1:39412 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:34,867 [INFO] uvicorn.access: 127.0.0.1:38384 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:36,112 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record args={'record_id': 'REC_adddc1c2a28b4cd1'} actor=user1 scope=group:chat1
+2026-08-05 15:28:36,113 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record success=True
+2026-08-05 15:28:38,963 [INFO] uvicorn.access: 127.0.0.1:38380 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:28:38,967 [INFO] uvicorn.access: 127.0.0.1:38380 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:49,869 [INFO] uvicorn.access: 127.0.0.1:34398 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:28:52,449 [INFO] src.agent.capabilities: Agent工具调用: tool=cancel_record args={'record_id': 'REC_adddc1c2a28b4cd1', 'expected_version': 4, 'reason': '客户延期'} actor=user1 scope=group:chat1
+2026-08-05 15:28:52,462 [INFO] src.agent.capabilities: Agent工具完成: tool=cancel_record success=True
+2026-08-05 15:28:55,027 [INFO] uvicorn.access: 127.0.0.1:34388 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:28:55,031 [INFO] uvicorn.access: 127.0.0.1:34388 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:29:04,871 [INFO] uvicorn.access: 127.0.0.1:52512 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:29:19,868 [INFO] uvicorn.access: 127.0.0.1:54814 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:29:34,867 [INFO] uvicorn.access: 127.0.0.1:45008 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:29:49,866 [INFO] uvicorn.access: 127.0.0.1:39090 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:30:04,879 [INFO] uvicorn.access: 127.0.0.1:52248 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:30:05,728 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_2f03bcb669e74d43', statuses=['active', 'pending_confirm', 'draft'], filters=[], sort=[], limit=20, cursor=None)} actor=user1 scope=group:chat1
+2026-08-05 15:30:05,729 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:30:07,531 [INFO] uvicorn.access: 127.0.0.1:58252 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:30:07,535 [INFO] uvicorn.access: 127.0.0.1:58252 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:30:19,869 [INFO] uvicorn.access: 127.0.0.1:49000 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:30:34,876 [INFO] uvicorn.access: 127.0.0.1:60730 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:30:49,876 [INFO] uvicorn.access: 127.0.0.1:42420 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:31:04,877 [INFO] uvicorn.access: 127.0.0.1:45674 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:31:19,878 [INFO] uvicorn.access: 127.0.0.1:36786 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:31:34,876 [INFO] uvicorn.access: 127.0.0.1:58626 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:31:49,873 [INFO] uvicorn.access: 127.0.0.1:42616 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:32:04,881 [INFO] uvicorn.access: 127.0.0.1:50866 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:32:19,867 [INFO] uvicorn.access: 127.0.0.1:40404 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:32:31,106 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_2f03bcb669e74d43'} actor=user1 scope=group:chat1
+2026-08-05 15:32:31,106 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:32:34,879 [INFO] uvicorn.access: 127.0.0.1:34224 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:32:37,358 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_2f03bcb669e74d43', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-05'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田'), RecordFilter(field_key='meeting_room', operator='eq', value='VIP接待室')], sort=[], limit=20, cursor=None)} actor=user1 scope=group:chat1
+2026-08-05 15:32:37,358 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:32:45,268 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_2f03bcb669e74d43', values={'reception_location': '深圳福田', 'visit_date': '2026-08-05', 'visit_start_time': '18:00', 'visit_end_time': '19:00', 'visiting_unit': '腾讯科技', 'main_visitor': '张三 总监', 'visitor_count': '5', 'exhibition_hall': '是', 'meeting_room': 'VIP接待室', 'supporting_materials': '宣传册、瓶装水', 'exhibition_status': '准备就绪', 'internal_hosts': "['李四', '王五']"}, raw_text='')} actor=user1 scope=group:chat1
+2026-08-05 15:32:45,285 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 15:32:49,834 [INFO] uvicorn.access: 127.0.0.1:45272 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:32:49,838 [INFO] uvicorn.access: 127.0.0.1:45272 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:32:49,865 [INFO] uvicorn.access: 127.0.0.1:45272 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:04,878 [INFO] uvicorn.access: 127.0.0.1:46906 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:05,472 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_07b9c352d26243f6', 'expected_version': 1} actor=user1 scope=group:chat1
+2026-08-05 15:33:05,484 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 15:33:08,933 [INFO] uvicorn.access: 127.0.0.1:48258 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:33:08,938 [INFO] uvicorn.access: 127.0.0.1:48258 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:19,870 [INFO] uvicorn.access: 127.0.0.1:37312 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:34,879 [INFO] uvicorn.access: 127.0.0.1:33038 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:48,585 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_9a8bfedba21a4b43'} actor=user1 scope=group:chat2
+2026-08-05 15:33:48,586 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 15:33:49,876 [INFO] uvicorn.access: 127.0.0.1:50348 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:33:53,610 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_9a8bfedba21a4b43', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-05')], sort=[RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user1 scope=group:chat2
+2026-08-05 15:33:53,611 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 15:33:57,561 [INFO] uvicorn.access: 127.0.0.1:50338 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:33:57,566 [INFO] uvicorn.access: 127.0.0.1:50338 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:34:04,872 [INFO] uvicorn.access: 127.0.0.1:51060 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:34:14,734 [INFO] uvicorn.access: 127.0.0.1:51072 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 15:34:14,741 [INFO] uvicorn.access: 127.0.0.1:51072 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:34:19,868 [INFO] uvicorn.access: 127.0.0.1:49916 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:34:34,884 [INFO] uvicorn.access: 127.0.0.1:58602 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:34:49,932 [INFO] uvicorn.access: 127.0.0.1:43512 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:35:04,937 [INFO] uvicorn.access: 127.0.0.1:40048 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:35:19,937 [INFO] uvicorn.access: 127.0.0.1:40178 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:35:34,928 [INFO] uvicorn.access: 127.0.0.1:58372 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:35:54,935 [INFO] uvicorn.access: 127.0.0.1:56608 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:36:54,940 [INFO] uvicorn.access: 127.0.0.1:38488 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:37:54,933 [INFO] uvicorn.access: 127.0.0.1:55572 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:38:54,942 [INFO] uvicorn.access: 127.0.0.1:47240 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:39:54,941 [INFO] uvicorn.access: 127.0.0.1:37474 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:40:54,931 [INFO] uvicorn.access: 127.0.0.1:58212 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:41:54,929 [INFO] uvicorn.access: 127.0.0.1:46546 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:42:54,940 [INFO] uvicorn.access: 127.0.0.1:36988 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:43:54,941 [INFO] uvicorn.access: 127.0.0.1:39672 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:44:54,937 [INFO] uvicorn.access: 127.0.0.1:43646 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:45:54,943 [INFO] uvicorn.access: 127.0.0.1:40164 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:46:54,942 [INFO] uvicorn.access: 127.0.0.1:44668 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:47:54,941 [INFO] uvicorn.access: 127.0.0.1:46648 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:48:54,935 [INFO] uvicorn.access: 127.0.0.1:41900 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:49:54,933 [INFO] uvicorn.access: 127.0.0.1:39278 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:50:54,941 [INFO] uvicorn.access: 127.0.0.1:45196 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:51:54,940 [INFO] uvicorn.access: 127.0.0.1:41126 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:52:54,934 [INFO] uvicorn.access: 127.0.0.1:59054 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:53:54,932 [INFO] uvicorn.access: 127.0.0.1:52936 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:54:54,939 [INFO] uvicorn.access: 127.0.0.1:51200 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:55:54,935 [INFO] uvicorn.access: 127.0.0.1:50122 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:56:54,928 [INFO] uvicorn.access: 127.0.0.1:58266 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:57:54,941 [INFO] uvicorn.access: 127.0.0.1:57880 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:58:54,933 [INFO] uvicorn.access: 127.0.0.1:36362 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 15:59:54,937 [INFO] uvicorn.access: 127.0.0.1:47680 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:00:24,149 [INFO] src.bot.wecom_bot: 本地模式：提醒本应推送 scope=group/chat1
+2026-08-05 16:00:54,941 [INFO] uvicorn.access: 127.0.0.1:46964 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:01:54,931 [INFO] uvicorn.access: 127.0.0.1:57462 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:02:54,942 [INFO] uvicorn.access: 127.0.0.1:51488 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:03:54,940 [INFO] uvicorn.access: 127.0.0.1:44550 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:04:54,941 [INFO] uvicorn.access: 127.0.0.1:51274 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:05:54,938 [INFO] uvicorn.access: 127.0.0.1:37494 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:06:54,929 [INFO] uvicorn.access: 127.0.0.1:55128 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:07:54,930 [INFO] uvicorn.access: 127.0.0.1:34344 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:08:54,943 [INFO] uvicorn.access: 127.0.0.1:48938 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:09:54,945 [INFO] uvicorn.access: 127.0.0.1:50586 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:10:54,938 [INFO] uvicorn.access: 127.0.0.1:32904 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:11:54,936 [INFO] uvicorn.access: 127.0.0.1:52098 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:12:54,941 [INFO] uvicorn.access: 127.0.0.1:41352 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:13:54,933 [INFO] uvicorn.access: 127.0.0.1:38798 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:14:33,194 [INFO] uvicorn.access: 127.0.0.1:45214 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:14:34,869 [INFO] uvicorn.access: 127.0.0.1:45214 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:14:45,736 [INFO] uvicorn.access: 127.0.0.1:40592 - "POST /api/local/push-outbox/ack HTTP/1.1" 200
+2026-08-05 16:14:45,738 [INFO] uvicorn.access: 127.0.0.1:40592 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:14:49,880 [INFO] uvicorn.access: 127.0.0.1:40592 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:15:04,880 [INFO] uvicorn.access: 127.0.0.1:47380 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:15:19,879 [INFO] uvicorn.access: 127.0.0.1:46928 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:15:34,877 [INFO] uvicorn.access: 127.0.0.1:39662 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:15:49,929 [INFO] uvicorn.access: 127.0.0.1:47098 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:16:04,934 [INFO] uvicorn.access: 127.0.0.1:51940 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:16:19,938 [INFO] uvicorn.access: 127.0.0.1:33364 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:16:34,937 [INFO] uvicorn.access: 127.0.0.1:47080 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:16:54,938 [INFO] uvicorn.access: 127.0.0.1:60588 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:17:54,939 [INFO] uvicorn.access: 127.0.0.1:52386 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:18:54,942 [INFO] uvicorn.access: 127.0.0.1:39160 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:19:54,933 [INFO] uvicorn.access: 127.0.0.1:40464 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:20:54,936 [INFO] uvicorn.access: 127.0.0.1:41754 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:21:54,941 [INFO] uvicorn.access: 127.0.0.1:60794 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:22:54,936 [INFO] uvicorn.access: 127.0.0.1:38134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:23:54,934 [INFO] uvicorn.access: 127.0.0.1:42254 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:24:54,929 [INFO] uvicorn.access: 127.0.0.1:44992 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:25:54,944 [INFO] uvicorn.access: 127.0.0.1:37722 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:26:54,939 [INFO] uvicorn.access: 127.0.0.1:54262 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:27:54,938 [INFO] uvicorn.access: 127.0.0.1:41636 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:28:38,055 [INFO] uvicorn.access: 127.0.0.1:59308 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:28:49,940 [INFO] uvicorn.access: 127.0.0.1:36214 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:29:04,938 [INFO] uvicorn.access: 127.0.0.1:44498 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:29:19,929 [INFO] uvicorn.access: 127.0.0.1:33244 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:29:34,939 [INFO] uvicorn.access: 127.0.0.1:50338 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:29:54,941 [INFO] uvicorn.access: 127.0.0.1:37084 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:30:54,935 [INFO] uvicorn.access: 127.0.0.1:35264 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:31:54,937 [INFO] uvicorn.access: 127.0.0.1:54526 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:32:54,938 [INFO] uvicorn.access: 127.0.0.1:42044 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:33:54,936 [INFO] uvicorn.access: 127.0.0.1:55860 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:34:54,929 [INFO] uvicorn.access: 127.0.0.1:43910 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:35:54,944 [INFO] uvicorn.access: 127.0.0.1:58476 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:36:54,937 [INFO] uvicorn.access: 127.0.0.1:49484 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:37:54,935 [INFO] uvicorn.access: 127.0.0.1:45428 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:38:54,939 [INFO] uvicorn.access: 127.0.0.1:41658 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:39:54,938 [INFO] uvicorn.access: 127.0.0.1:45022 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:40:54,941 [INFO] uvicorn.access: 127.0.0.1:41956 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:41:54,929 [INFO] uvicorn.access: 127.0.0.1:57194 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:42:54,937 [INFO] uvicorn.access: 127.0.0.1:42776 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:43:54,934 [INFO] uvicorn.access: 127.0.0.1:53260 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:44:54,930 [INFO] uvicorn.access: 127.0.0.1:50536 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:45:29,234 [INFO] uvicorn.access: 127.0.0.1:46370 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:45:34,881 [INFO] uvicorn.access: 127.0.0.1:52304 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:45:49,882 [INFO] uvicorn.access: 127.0.0.1:45962 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:46:04,874 [INFO] uvicorn.access: 127.0.0.1:39994 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:46:19,866 [INFO] uvicorn.access: 127.0.0.1:60088 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:46:34,869 [INFO] uvicorn.access: 127.0.0.1:56462 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:46:41,041 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:46:41,042 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 16:46:45,699 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-06'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:46:45,700 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:46:49,866 [INFO] uvicorn.access: 127.0.0.1:34790 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:46:51,701 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_e1ec600e1e9f4778', values={'visit_date': '2026-08-06', 'visit_start_time': '15:00', 'visit_end_time': '16:00', 'visiting_unit': '阿里云', 'main_visitor': '王强 技术总监', 'visitor_count': '3', 'internal_hosts': 'user_test2_1', 'exhibition_hall': '是', 'reception_location': '深圳福田'}, raw_text='')} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:46:51,711 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 16:46:56,851 [INFO] uvicorn.access: 127.0.0.1:56462 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:46:56,858 [INFO] uvicorn.access: 127.0.0.1:56462 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:47:04,873 [INFO] uvicorn.access: 127.0.0.1:60414 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:47:19,873 [INFO] uvicorn.access: 127.0.0.1:47122 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:47:34,870 [INFO] uvicorn.access: 127.0.0.1:46514 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:47:49,880 [INFO] uvicorn.access: 127.0.0.1:45370 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:48:04,874 [INFO] uvicorn.access: 127.0.0.1:35694 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:48:19,880 [INFO] uvicorn.access: 127.0.0.1:53658 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:48:34,873 [INFO] uvicorn.access: 127.0.0.1:46756 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:48:49,870 [INFO] uvicorn.access: 127.0.0.1:36890 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:49:04,866 [INFO] uvicorn.access: 127.0.0.1:38802 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:49:19,876 [INFO] uvicorn.access: 127.0.0.1:43216 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:49:34,872 [INFO] uvicorn.access: 127.0.0.1:37548 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:49:49,878 [INFO] uvicorn.access: 127.0.0.1:51196 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:49:59,423 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_655f80bffb194f12', 'expected_version': 1} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:49:59,441 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 16:50:03,954 [INFO] uvicorn.access: 127.0.0.1:56012 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:50:03,958 [INFO] uvicorn.access: 127.0.0.1:56012 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:50:04,879 [INFO] uvicorn.access: 127.0.0.1:56012 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:50:19,868 [INFO] uvicorn.access: 127.0.0.1:38536 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:50:34,875 [INFO] uvicorn.access: 127.0.0.1:56890 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:50:49,874 [INFO] uvicorn.access: 127.0.0.1:54820 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:51:04,871 [INFO] uvicorn.access: 127.0.0.1:57974 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:51:19,877 [INFO] uvicorn.access: 127.0.0.1:59012 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:51:34,870 [INFO] uvicorn.access: 127.0.0.1:53594 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:51:41,929 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:51:41,930 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 16:51:45,971 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active'], filters=[RecordFilter(field_key='visit_date', operator='gte', value='2026-08-05')], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:51:45,972 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:51:49,776 [INFO] uvicorn.access: 127.0.0.1:53594 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:51:49,781 [INFO] uvicorn.access: 127.0.0.1:53594 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:51:49,867 [INFO] uvicorn.access: 127.0.0.1:53594 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:52:04,873 [INFO] uvicorn.access: 127.0.0.1:59980 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:52:19,866 [INFO] uvicorn.access: 127.0.0.1:39160 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:52:34,878 [INFO] uvicorn.access: 127.0.0.1:48442 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:52:49,870 [INFO] uvicorn.access: 127.0.0.1:57050 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:53:03,894 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:53:03,894 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 16:53:04,866 [INFO] uvicorn.access: 127.0.0.1:60078 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:53:08,378 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-05'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:53:08,379 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:53:13,085 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_e1ec600e1e9f4778', values={'reception_location': '深圳福田', 'visit_date': '2026-08-05', 'visit_start_time': '16:00', 'visit_end_time': '17:00', 'visiting_unit': '字节跳动', 'main_visitor': '李明 产品负责人', 'visitor_count': '4', 'exhibition_hall': '是', 'internal_hosts': 'user_test2_1'}, raw_text='')} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:53:13,096 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 16:53:18,198 [INFO] uvicorn.access: 127.0.0.1:35190 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:53:18,203 [INFO] uvicorn.access: 127.0.0.1:35190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:53:19,871 [INFO] uvicorn.access: 127.0.0.1:35190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:53:34,880 [INFO] uvicorn.access: 127.0.0.1:58582 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:53:49,871 [INFO] uvicorn.access: 127.0.0.1:60136 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:54:04,867 [INFO] uvicorn.access: 127.0.0.1:47750 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:54:19,879 [INFO] uvicorn.access: 127.0.0.1:47726 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:54:34,874 [INFO] uvicorn.access: 127.0.0.1:49092 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:54:49,874 [INFO] uvicorn.access: 127.0.0.1:55642 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:55:04,875 [INFO] uvicorn.access: 127.0.0.1:45096 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:55:19,875 [INFO] uvicorn.access: 127.0.0.1:53500 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:55:34,870 [INFO] uvicorn.access: 127.0.0.1:39020 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:55:49,878 [INFO] uvicorn.access: 127.0.0.1:58056 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:04,872 [INFO] uvicorn.access: 127.0.0.1:55786 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:14,238 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_5969b4b031ea46a7', 'expected_version': 1} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:56:14,255 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 16:56:18,999 [INFO] uvicorn.access: 127.0.0.1:55792 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:56:19,004 [INFO] uvicorn.access: 127.0.0.1:55792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:19,868 [INFO] uvicorn.access: 127.0.0.1:55792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:26,452 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active'], filters=[], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:56:26,453 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:56:30,727 [INFO] uvicorn.access: 127.0.0.1:55792 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:56:30,734 [INFO] uvicorn.access: 127.0.0.1:55792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:34,865 [INFO] uvicorn.access: 127.0.0.1:55792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:56:49,874 [INFO] uvicorn.access: 127.0.0.1:52298 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:57:04,872 [INFO] uvicorn.access: 127.0.0.1:43540 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:57:19,871 [INFO] uvicorn.access: 127.0.0.1:53876 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:57:34,867 [INFO] uvicorn.access: 127.0.0.1:45492 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:57:49,868 [INFO] uvicorn.access: 127.0.0.1:52452 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:04,868 [INFO] uvicorn.access: 127.0.0.1:43652 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:14,307 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:58:14,308 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 16:58:18,316 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-05'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:58:18,317 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:58:19,871 [INFO] uvicorn.access: 127.0.0.1:41398 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:23,342 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_e1ec600e1e9f4778', values={'reception_location': '深圳福田', 'visit_date': '2026-08-05', 'visit_start_time': '09:00', 'visit_end_time': '10:00', 'visiting_unit': '百度', 'main_visitor': '陈磊 商务经理', 'visitor_count': '2', 'exhibition_hall': '否', 'internal_hosts': 'user_test2_1'}, raw_text='')} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:58:23,353 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 16:58:27,662 [INFO] uvicorn.access: 127.0.0.1:43660 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:58:27,667 [INFO] uvicorn.access: 127.0.0.1:43660 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:34,881 [INFO] uvicorn.access: 127.0.0.1:41190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:49,875 [INFO] uvicorn.access: 127.0.0.1:56310 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:58:57,289 [INFO] src.agent.capabilities: Agent工具调用: tool=confirm_record args={'record_id': 'REC_4087c7b583014473', 'expected_version': 1} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:58:57,311 [INFO] src.agent.capabilities: Agent工具完成: tool=confirm_record success=True
+2026-08-05 16:59:01,303 [INFO] uvicorn.access: 127.0.0.1:56310 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:59:01,310 [INFO] uvicorn.access: 127.0.0.1:56310 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:59:04,869 [INFO] uvicorn.access: 127.0.0.1:45994 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:59:06,325 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:59:06,326 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 16:59:09,934 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active', 'pending_confirm'], filters=[], sort=[RecordSort(field_key='visit_date', direction='asc'), RecordSort(field_key='visit_start_time', direction='asc')], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 16:59:09,935 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 16:59:15,606 [INFO] uvicorn.access: 127.0.0.1:56310 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 16:59:15,612 [INFO] uvicorn.access: 127.0.0.1:56310 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:59:19,865 [INFO] uvicorn.access: 127.0.0.1:56310 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:59:34,878 [INFO] uvicorn.access: 127.0.0.1:36686 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 16:59:49,866 [INFO] uvicorn.access: 127.0.0.1:57134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:00:00,954 [INFO] uvicorn.access: 127.0.0.1:57134 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 17:00:00,960 [INFO] uvicorn.access: 127.0.0.1:57134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:00:04,880 [INFO] uvicorn.access: 127.0.0.1:57134 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:00:19,874 [INFO] uvicorn.access: 127.0.0.1:52432 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:00:34,874 [INFO] uvicorn.access: 127.0.0.1:40716 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:00:49,872 [INFO] uvicorn.access: 127.0.0.1:41652 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:01:04,872 [INFO] uvicorn.access: 127.0.0.1:43182 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:01:19,869 [INFO] uvicorn.access: 127.0.0.1:48040 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:01:34,881 [INFO] uvicorn.access: 127.0.0.1:58662 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:01:49,873 [INFO] uvicorn.access: 127.0.0.1:57778 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:02:04,872 [INFO] uvicorn.access: 127.0.0.1:45430 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:02:19,868 [INFO] uvicorn.access: 127.0.0.1:34020 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:02:34,876 [INFO] uvicorn.access: 127.0.0.1:45274 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:02:49,868 [INFO] uvicorn.access: 127.0.0.1:53280 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:03:04,877 [INFO] uvicorn.access: 127.0.0.1:55558 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:03:19,873 [INFO] uvicorn.access: 127.0.0.1:57804 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:03:34,876 [INFO] uvicorn.access: 127.0.0.1:55216 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:03:49,870 [INFO] uvicorn.access: 127.0.0.1:42898 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:04,870 [INFO] uvicorn.access: 127.0.0.1:45016 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:08,339 [INFO] uvicorn.access: 127.0.0.1:45016 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 17:04:08,345 [INFO] uvicorn.access: 127.0.0.1:45016 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:19,868 [INFO] uvicorn.access: 127.0.0.1:55090 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:19,930 [INFO] uvicorn.access: 127.0.0.1:55082 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 17:04:19,936 [INFO] uvicorn.access: 127.0.0.1:55082 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:34,877 [INFO] uvicorn.access: 127.0.0.1:51276 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:04:49,875 [INFO] uvicorn.access: 127.0.0.1:48846 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:05:04,879 [INFO] uvicorn.access: 127.0.0.1:34836 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:05:19,868 [INFO] uvicorn.access: 127.0.0.1:35538 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:05:34,874 [INFO] uvicorn.access: 127.0.0.1:34578 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:05:49,870 [INFO] uvicorn.access: 127.0.0.1:52666 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:06:04,870 [INFO] uvicorn.access: 127.0.0.1:35486 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:06:19,877 [INFO] uvicorn.access: 127.0.0.1:47848 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:06:34,874 [INFO] uvicorn.access: 127.0.0.1:47712 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:06:49,878 [INFO] uvicorn.access: 127.0.0.1:35118 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:07:04,876 [INFO] uvicorn.access: 127.0.0.1:44410 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:07:19,873 [INFO] uvicorn.access: 127.0.0.1:50806 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:07:34,869 [INFO] uvicorn.access: 127.0.0.1:47360 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:07:49,878 [INFO] uvicorn.access: 127.0.0.1:54798 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:08:04,870 [INFO] uvicorn.access: 127.0.0.1:57830 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:08:19,880 [INFO] uvicorn.access: 127.0.0.1:49352 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:08:34,872 [INFO] uvicorn.access: 127.0.0.1:37458 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:08:49,868 [INFO] uvicorn.access: 127.0.0.1:45384 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:09:04,882 [INFO] uvicorn.access: 127.0.0.1:45144 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:09:19,872 [INFO] uvicorn.access: 127.0.0.1:53740 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:09:34,868 [INFO] uvicorn.access: 127.0.0.1:39028 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:09:49,879 [INFO] uvicorn.access: 127.0.0.1:45770 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:10:04,882 [INFO] uvicorn.access: 127.0.0.1:35122 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:10:19,868 [INFO] uvicorn.access: 127.0.0.1:45302 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:10:34,878 [INFO] uvicorn.access: 127.0.0.1:58906 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:10:49,877 [INFO] uvicorn.access: 127.0.0.1:45312 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:11:04,868 [INFO] uvicorn.access: 127.0.0.1:47292 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:11:19,871 [INFO] uvicorn.access: 127.0.0.1:54282 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:11:34,876 [INFO] uvicorn.access: 127.0.0.1:45316 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:11:49,877 [INFO] uvicorn.access: 127.0.0.1:49390 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:12:04,873 [INFO] uvicorn.access: 127.0.0.1:47166 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:12:19,868 [INFO] uvicorn.access: 127.0.0.1:46332 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:12:34,868 [INFO] uvicorn.access: 127.0.0.1:60174 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:12:49,880 [INFO] uvicorn.access: 127.0.0.1:33222 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:13:04,866 [INFO] uvicorn.access: 127.0.0.1:53066 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:13:19,873 [INFO] uvicorn.access: 127.0.0.1:56950 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:13:34,872 [INFO] uvicorn.access: 127.0.0.1:46338 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:13:49,867 [INFO] uvicorn.access: 127.0.0.1:51392 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:14:04,875 [INFO] uvicorn.access: 127.0.0.1:43236 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:14:19,874 [INFO] uvicorn.access: 127.0.0.1:51406 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:14:34,875 [INFO] uvicorn.access: 127.0.0.1:44088 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:14:49,878 [INFO] uvicorn.access: 127.0.0.1:45336 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:15:04,873 [INFO] uvicorn.access: 127.0.0.1:44036 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:15:19,868 [INFO] uvicorn.access: 127.0.0.1:47796 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:15:34,871 [INFO] uvicorn.access: 127.0.0.1:51964 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:15:49,874 [INFO] uvicorn.access: 127.0.0.1:36028 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:16:04,870 [INFO] uvicorn.access: 127.0.0.1:53538 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:16:19,867 [INFO] uvicorn.access: 127.0.0.1:38328 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:16:34,873 [INFO] uvicorn.access: 127.0.0.1:57930 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:16:49,875 [INFO] uvicorn.access: 127.0.0.1:38386 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:17:04,878 [INFO] uvicorn.access: 127.0.0.1:58384 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:17:19,881 [INFO] uvicorn.access: 127.0.0.1:54552 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:17:34,867 [INFO] uvicorn.access: 127.0.0.1:50186 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:17:49,871 [INFO] uvicorn.access: 127.0.0.1:54172 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:18:04,866 [INFO] uvicorn.access: 127.0.0.1:37108 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:18:19,875 [INFO] uvicorn.access: 127.0.0.1:39356 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:18:34,868 [INFO] uvicorn.access: 127.0.0.1:39960 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:18:49,877 [INFO] uvicorn.access: 127.0.0.1:37124 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:19:04,878 [INFO] uvicorn.access: 127.0.0.1:50446 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:19:19,879 [INFO] uvicorn.access: 127.0.0.1:56328 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:19:34,877 [INFO] uvicorn.access: 127.0.0.1:44016 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:19:49,870 [INFO] uvicorn.access: 127.0.0.1:55010 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:20:04,880 [INFO] uvicorn.access: 127.0.0.1:56596 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:20:19,879 [INFO] uvicorn.access: 127.0.0.1:44598 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:20:34,866 [INFO] uvicorn.access: 127.0.0.1:56918 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:20:49,881 [INFO] uvicorn.access: 127.0.0.1:57820 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:21:04,879 [INFO] uvicorn.access: 127.0.0.1:41714 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:21:19,873 [INFO] uvicorn.access: 127.0.0.1:57666 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:21:34,871 [INFO] uvicorn.access: 127.0.0.1:56940 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:21:49,879 [INFO] uvicorn.access: 127.0.0.1:44526 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:22:04,869 [INFO] uvicorn.access: 127.0.0.1:56884 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:22:19,869 [INFO] uvicorn.access: 127.0.0.1:58098 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:22:34,879 [INFO] uvicorn.access: 127.0.0.1:59206 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:22:49,871 [INFO] uvicorn.access: 127.0.0.1:43032 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:23:04,872 [INFO] uvicorn.access: 127.0.0.1:51110 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:23:19,877 [INFO] uvicorn.access: 127.0.0.1:34454 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:23:34,866 [INFO] uvicorn.access: 127.0.0.1:46924 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:23:49,870 [INFO] uvicorn.access: 127.0.0.1:43596 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:24:04,878 [INFO] uvicorn.access: 127.0.0.1:54022 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:24:19,875 [INFO] uvicorn.access: 127.0.0.1:46040 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:24:34,876 [INFO] uvicorn.access: 127.0.0.1:52924 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:24:49,867 [INFO] uvicorn.access: 127.0.0.1:39490 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:25:04,878 [INFO] uvicorn.access: 127.0.0.1:51078 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:25:19,875 [INFO] uvicorn.access: 127.0.0.1:34120 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:25:34,870 [INFO] uvicorn.access: 127.0.0.1:57086 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:25:49,880 [INFO] uvicorn.access: 127.0.0.1:48100 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:26:04,877 [INFO] uvicorn.access: 127.0.0.1:32794 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:26:19,878 [INFO] uvicorn.access: 127.0.0.1:56070 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:26:34,882 [INFO] uvicorn.access: 127.0.0.1:51666 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:26:49,871 [INFO] uvicorn.access: 127.0.0.1:57506 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:27:04,871 [INFO] uvicorn.access: 127.0.0.1:33548 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:27:19,872 [INFO] uvicorn.access: 127.0.0.1:52610 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:27:34,879 [INFO] uvicorn.access: 127.0.0.1:37474 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:27:49,879 [INFO] uvicorn.access: 127.0.0.1:50538 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:28:04,880 [INFO] uvicorn.access: 127.0.0.1:47442 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:28:13,022 [INFO] uvicorn.error: Shutting down
+2026-08-05 17:28:13,123 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-08-05 17:28:13,124 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-08-05 17:28:13,125 [INFO] uvicorn.error: Application shutdown complete.
+2026-08-05 17:28:13,125 [INFO] uvicorn.error: Finished server process [59162]
+2026-08-05 17:28:16,059 [INFO] uvicorn.error: Started server process [86458]
+2026-08-05 17:28:16,060 [INFO] uvicorn.error: Waiting for application startup.
+2026-08-05 17:28:16,069 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-05 17:28:16,069 [INFO] apscheduler.scheduler: Added job "reminder_sender_job" to job store "default"
+2026-08-05 17:28:16,069 [INFO] apscheduler.scheduler: Scheduler started
+2026-08-05 17:28:16,071 [INFO] src.bot.wecom_bot: ENABLE_WECOM_BOT=false，跳过企业微信机器人启动
+2026-08-05 17:28:16,071 [INFO] uvicorn.error: Application startup complete.
+2026-08-05 17:28:16,072 [INFO] uvicorn.error: Uvicorn running on http://0.0.0.0:8101 (Press CTRL+C to quit)
+2026-08-05 17:28:19,879 [INFO] uvicorn.access: 127.0.0.1:56074 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:28:34,872 [INFO] uvicorn.access: 127.0.0.1:52466 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:28:49,870 [INFO] uvicorn.access: 127.0.0.1:41056 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:28:51,643 [INFO] uvicorn.access: 127.0.0.1:41042 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 17:28:51,647 [INFO] uvicorn.access: 127.0.0.1:41042 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:29:04,872 [INFO] uvicorn.access: 127.0.0.1:34830 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:29:19,867 [INFO] uvicorn.access: 127.0.0.1:51012 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:29:34,880 [INFO] uvicorn.access: 127.0.0.1:50306 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:29:49,872 [INFO] uvicorn.access: 127.0.0.1:57762 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:30:04,866 [INFO] uvicorn.access: 127.0.0.1:51194 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:30:19,871 [INFO] uvicorn.access: 127.0.0.1:59934 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:30:34,880 [INFO] uvicorn.access: 127.0.0.1:53382 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:30:49,876 [INFO] uvicorn.access: 127.0.0.1:38272 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:31:04,867 [INFO] uvicorn.access: 127.0.0.1:37300 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:31:19,868 [INFO] uvicorn.access: 127.0.0.1:45882 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:31:34,872 [INFO] uvicorn.access: 127.0.0.1:38892 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:31:49,870 [INFO] uvicorn.access: 127.0.0.1:60160 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:32:04,869 [INFO] uvicorn.access: 127.0.0.1:40456 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:32:19,870 [INFO] uvicorn.access: 127.0.0.1:50248 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:32:34,867 [INFO] uvicorn.access: 127.0.0.1:34880 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:32:49,867 [INFO] uvicorn.access: 127.0.0.1:38566 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:33:04,870 [INFO] uvicorn.access: 127.0.0.1:35234 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:33:19,873 [INFO] uvicorn.access: 127.0.0.1:54792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:33:34,880 [INFO] uvicorn.access: 127.0.0.1:36502 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:33:49,875 [INFO] uvicorn.access: 127.0.0.1:50396 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:34:04,878 [INFO] uvicorn.access: 127.0.0.1:50790 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:34:19,877 [INFO] uvicorn.access: 127.0.0.1:35976 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:34:34,872 [INFO] uvicorn.access: 127.0.0.1:41246 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:34:49,879 [INFO] uvicorn.access: 127.0.0.1:55098 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:35:04,881 [INFO] uvicorn.access: 127.0.0.1:33968 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:35:19,867 [INFO] uvicorn.access: 127.0.0.1:49020 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:35:34,873 [INFO] uvicorn.access: 127.0.0.1:49652 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:35:49,878 [INFO] uvicorn.access: 127.0.0.1:38230 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:36:04,872 [INFO] uvicorn.access: 127.0.0.1:34820 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:36:19,879 [INFO] uvicorn.access: 127.0.0.1:34550 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:36:34,870 [INFO] uvicorn.access: 127.0.0.1:54136 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:36:49,873 [INFO] uvicorn.access: 127.0.0.1:35618 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:37:04,867 [INFO] uvicorn.access: 127.0.0.1:41816 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:37:19,869 [INFO] uvicorn.access: 127.0.0.1:36210 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:37:34,879 [INFO] uvicorn.access: 127.0.0.1:51152 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:37:49,873 [INFO] uvicorn.access: 127.0.0.1:33740 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:38:04,873 [INFO] uvicorn.access: 127.0.0.1:49784 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:38:19,866 [INFO] uvicorn.access: 127.0.0.1:55000 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:38:34,868 [INFO] uvicorn.access: 127.0.0.1:60906 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:38:49,880 [INFO] uvicorn.access: 127.0.0.1:40950 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:39:04,869 [INFO] uvicorn.access: 127.0.0.1:34634 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:39:19,882 [INFO] uvicorn.access: 127.0.0.1:33110 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:39:34,881 [INFO] uvicorn.access: 127.0.0.1:43082 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:39:49,877 [INFO] uvicorn.access: 127.0.0.1:38750 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:40:04,881 [INFO] uvicorn.access: 127.0.0.1:44366 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:40:19,880 [INFO] uvicorn.access: 127.0.0.1:50074 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:40:34,866 [INFO] uvicorn.access: 127.0.0.1:47056 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:40:49,867 [INFO] uvicorn.access: 127.0.0.1:54840 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:41:04,868 [INFO] uvicorn.access: 127.0.0.1:35238 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:41:19,873 [INFO] uvicorn.access: 127.0.0.1:43716 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:41:34,871 [INFO] uvicorn.access: 127.0.0.1:42584 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:41:41,927 [INFO] src.agent.capabilities: Agent工具调用: tool=get_record_table args={'table_id': 'TBL_e1ec600e1e9f4778'} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 17:41:41,927 [INFO] src.agent.capabilities: Agent工具完成: tool=get_record_table success=True
+2026-08-05 17:41:47,174 [INFO] src.agent.capabilities: Agent工具调用: tool=list_records args={'query': RecordListQuery(table_id='TBL_e1ec600e1e9f4778', statuses=['active', 'pending_confirm'], filters=[RecordFilter(field_key='visit_date', operator='eq', value='2026-08-07'), RecordFilter(field_key='reception_location', operator='eq', value='深圳福田')], sort=[], limit=20, cursor=None)} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 17:41:47,175 [INFO] src.agent.capabilities: Agent工具完成: tool=list_records success=True
+2026-08-05 17:41:49,868 [INFO] uvicorn.access: 127.0.0.1:34628 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:41:51,997 [INFO] src.agent.capabilities: Agent工具调用: tool=create_record args={'data': CreateRecordInput(table_id='TBL_e1ec600e1e9f4778', values={'visit_date': '2026-08-07', 'visit_start_time': '09:00', 'visit_end_time': '10:00', 'visiting_unit': '华为', 'main_visitor': '张翔 产品经理', 'visitor_count': '2', 'reception_location': '深圳福田', 'exhibition_hall': '否', 'internal_hosts': ['user_test2_2']}, raw_text='')} actor=user_test2_1 scope=group:chat_test2_1
+2026-08-05 17:41:52,007 [INFO] src.agent.capabilities: Agent工具完成: tool=create_record success=True
+2026-08-05 17:41:55,662 [INFO] uvicorn.access: 127.0.0.1:42584 - "POST /api/chat HTTP/1.1" 200
+2026-08-05 17:41:55,666 [INFO] uvicorn.access: 127.0.0.1:42584 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:42:04,878 [INFO] uvicorn.access: 127.0.0.1:60046 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:42:19,873 [INFO] uvicorn.access: 127.0.0.1:34742 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:42:34,869 [INFO] uvicorn.access: 127.0.0.1:48032 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:42:49,881 [INFO] uvicorn.access: 127.0.0.1:52766 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:43:04,869 [INFO] uvicorn.access: 127.0.0.1:37698 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:43:19,872 [INFO] uvicorn.access: 127.0.0.1:54766 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:43:34,877 [INFO] uvicorn.access: 127.0.0.1:43252 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:43:49,867 [INFO] uvicorn.access: 127.0.0.1:47980 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:44:04,867 [INFO] uvicorn.access: 127.0.0.1:41474 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:44:19,872 [INFO] uvicorn.access: 127.0.0.1:54738 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:44:34,877 [INFO] uvicorn.access: 127.0.0.1:34872 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:44:49,869 [INFO] uvicorn.access: 127.0.0.1:37190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:45:04,868 [INFO] uvicorn.access: 127.0.0.1:37662 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:45:19,875 [INFO] uvicorn.access: 127.0.0.1:51336 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:45:34,881 [INFO] uvicorn.access: 127.0.0.1:49616 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:45:49,878 [INFO] uvicorn.access: 127.0.0.1:43576 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:46:04,871 [INFO] uvicorn.access: 127.0.0.1:55246 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:46:19,869 [INFO] uvicorn.access: 127.0.0.1:54192 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:46:34,872 [INFO] uvicorn.access: 127.0.0.1:35374 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:46:49,876 [INFO] uvicorn.access: 127.0.0.1:53662 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:47:04,880 [INFO] uvicorn.access: 127.0.0.1:50274 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:47:19,879 [INFO] uvicorn.access: 127.0.0.1:54658 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:47:34,881 [INFO] uvicorn.access: 127.0.0.1:37554 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:47:49,873 [INFO] uvicorn.access: 127.0.0.1:34988 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:48:04,881 [INFO] uvicorn.access: 127.0.0.1:44770 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:48:19,877 [INFO] uvicorn.access: 127.0.0.1:58584 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:48:34,867 [INFO] uvicorn.access: 127.0.0.1:51572 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:48:49,876 [INFO] uvicorn.access: 127.0.0.1:55854 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:49:04,877 [INFO] uvicorn.access: 127.0.0.1:47714 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:49:19,881 [INFO] uvicorn.access: 127.0.0.1:40128 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:49:34,867 [INFO] uvicorn.access: 127.0.0.1:49190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:49:49,937 [INFO] uvicorn.access: 127.0.0.1:33842 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:50:04,929 [INFO] uvicorn.access: 127.0.0.1:54494 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:50:19,929 [INFO] uvicorn.access: 127.0.0.1:56218 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:50:34,939 [INFO] uvicorn.access: 127.0.0.1:34796 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:50:54,939 [INFO] uvicorn.access: 127.0.0.1:38422 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:51:54,930 [INFO] uvicorn.access: 127.0.0.1:59586 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:52:25,897 [INFO] uvicorn.access: 127.0.0.1:59564 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:52:34,866 [INFO] uvicorn.access: 127.0.0.1:41562 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:52:49,867 [INFO] uvicorn.access: 127.0.0.1:53022 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:53:04,879 [INFO] uvicorn.access: 127.0.0.1:45142 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:53:19,867 [INFO] uvicorn.access: 127.0.0.1:45400 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:53:34,881 [INFO] uvicorn.access: 127.0.0.1:56274 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:53:49,880 [INFO] uvicorn.access: 127.0.0.1:58018 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:54:04,880 [INFO] uvicorn.access: 127.0.0.1:38990 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:54:19,870 [INFO] uvicorn.access: 127.0.0.1:60970 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:54:34,878 [INFO] uvicorn.access: 127.0.0.1:34190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:54:49,875 [INFO] uvicorn.access: 127.0.0.1:52300 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:55:04,879 [INFO] uvicorn.access: 127.0.0.1:50574 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:55:19,880 [INFO] uvicorn.access: 127.0.0.1:57246 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:55:34,868 [INFO] uvicorn.access: 127.0.0.1:38922 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:55:49,866 [INFO] uvicorn.access: 127.0.0.1:39594 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:56:04,880 [INFO] uvicorn.access: 127.0.0.1:56830 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:56:19,872 [INFO] uvicorn.access: 127.0.0.1:35610 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:56:34,873 [INFO] uvicorn.access: 127.0.0.1:36758 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:56:49,870 [INFO] uvicorn.access: 127.0.0.1:38992 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:57:04,881 [INFO] uvicorn.access: 127.0.0.1:33540 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:57:19,927 [INFO] uvicorn.access: 127.0.0.1:46922 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:57:34,929 [INFO] uvicorn.access: 127.0.0.1:34626 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:57:49,941 [INFO] uvicorn.access: 127.0.0.1:48028 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:58:04,928 [INFO] uvicorn.access: 127.0.0.1:38572 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:58:19,868 [INFO] uvicorn.access: 127.0.0.1:58242 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:58:34,881 [INFO] uvicorn.access: 127.0.0.1:49344 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:58:49,871 [INFO] uvicorn.access: 127.0.0.1:36686 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:59:04,868 [INFO] uvicorn.access: 127.0.0.1:57986 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:59:19,869 [INFO] uvicorn.access: 127.0.0.1:51882 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:59:34,879 [INFO] uvicorn.access: 127.0.0.1:35938 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 17:59:49,872 [INFO] uvicorn.access: 127.0.0.1:55518 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:00:04,876 [INFO] uvicorn.access: 127.0.0.1:41758 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:00:19,875 [INFO] uvicorn.access: 127.0.0.1:54726 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:00:34,877 [INFO] uvicorn.access: 127.0.0.1:34860 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:00:49,871 [INFO] uvicorn.access: 127.0.0.1:57368 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:01:04,870 [INFO] uvicorn.access: 127.0.0.1:45882 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:01:19,870 [INFO] uvicorn.access: 127.0.0.1:39412 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:01:34,878 [INFO] uvicorn.access: 127.0.0.1:35940 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:01:49,879 [INFO] uvicorn.access: 127.0.0.1:46830 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:02:04,869 [INFO] uvicorn.access: 127.0.0.1:47642 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:02:19,872 [INFO] uvicorn.access: 127.0.0.1:60514 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:02:34,869 [INFO] uvicorn.access: 127.0.0.1:54830 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:02:49,877 [INFO] uvicorn.access: 127.0.0.1:34632 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:03:04,879 [INFO] uvicorn.access: 127.0.0.1:49092 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:03:19,939 [INFO] uvicorn.access: 127.0.0.1:52718 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:03:34,942 [INFO] uvicorn.access: 127.0.0.1:55368 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:03:49,938 [INFO] uvicorn.access: 127.0.0.1:41980 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:04:04,929 [INFO] uvicorn.access: 127.0.0.1:56568 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:04:19,928 [INFO] uvicorn.access: 127.0.0.1:46924 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:04:34,940 [INFO] uvicorn.access: 127.0.0.1:55222 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:04:49,930 [INFO] uvicorn.access: 127.0.0.1:37884 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:05:04,928 [INFO] uvicorn.access: 127.0.0.1:37244 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:05:54,938 [INFO] uvicorn.access: 127.0.0.1:43290 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:06:54,932 [INFO] uvicorn.access: 127.0.0.1:45182 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:07:54,940 [INFO] uvicorn.access: 127.0.0.1:47990 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:08:54,936 [INFO] uvicorn.access: 127.0.0.1:53956 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:09:54,936 [INFO] uvicorn.access: 127.0.0.1:52666 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:10:54,942 [INFO] uvicorn.access: 127.0.0.1:49766 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:11:54,939 [INFO] uvicorn.access: 127.0.0.1:41618 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:12:54,932 [INFO] uvicorn.access: 127.0.0.1:39026 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:13:54,942 [INFO] uvicorn.access: 127.0.0.1:56470 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:14:54,941 [INFO] uvicorn.access: 127.0.0.1:45006 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:15:54,932 [INFO] uvicorn.access: 127.0.0.1:46128 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:16:54,936 [INFO] uvicorn.access: 127.0.0.1:51724 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:17:54,939 [INFO] uvicorn.access: 127.0.0.1:32862 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:18:54,944 [INFO] uvicorn.access: 127.0.0.1:52776 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:19:54,938 [INFO] uvicorn.access: 127.0.0.1:37868 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:20:54,937 [INFO] uvicorn.access: 127.0.0.1:45570 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:21:54,931 [INFO] uvicorn.access: 127.0.0.1:49080 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:22:54,940 [INFO] uvicorn.access: 127.0.0.1:40328 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:23:54,933 [INFO] uvicorn.access: 127.0.0.1:35046 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:24:54,937 [INFO] uvicorn.access: 127.0.0.1:33720 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:25:54,942 [INFO] uvicorn.access: 127.0.0.1:34948 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:26:54,932 [INFO] uvicorn.access: 127.0.0.1:46312 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:27:54,934 [INFO] uvicorn.access: 127.0.0.1:38190 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:28:54,933 [INFO] uvicorn.access: 127.0.0.1:35530 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:29:54,936 [INFO] uvicorn.access: 127.0.0.1:33288 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:30:54,933 [INFO] uvicorn.access: 127.0.0.1:53772 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:31:54,937 [INFO] uvicorn.access: 127.0.0.1:51108 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:32:54,927 [INFO] uvicorn.access: 127.0.0.1:46792 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:33:54,944 [INFO] uvicorn.access: 127.0.0.1:49184 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:34:54,928 [INFO] uvicorn.access: 127.0.0.1:36864 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:35:54,943 [INFO] uvicorn.access: 127.0.0.1:43910 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:36:54,931 [INFO] uvicorn.access: 127.0.0.1:43560 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:37:54,938 [INFO] uvicorn.access: 127.0.0.1:37786 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:38:54,938 [INFO] uvicorn.access: 127.0.0.1:50074 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:39:54,937 [INFO] uvicorn.access: 127.0.0.1:33958 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:40:54,942 [INFO] uvicorn.access: 127.0.0.1:47404 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:41:54,939 [INFO] uvicorn.access: 127.0.0.1:50126 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:42:54,942 [INFO] uvicorn.access: 127.0.0.1:49944 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:43:54,935 [INFO] uvicorn.access: 127.0.0.1:34224 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:44:54,933 [INFO] uvicorn.access: 127.0.0.1:36704 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:45:54,945 [INFO] uvicorn.access: 127.0.0.1:38892 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:46:54,933 [INFO] uvicorn.access: 127.0.0.1:44204 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:47:54,944 [INFO] uvicorn.access: 127.0.0.1:56542 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:48:54,943 [INFO] uvicorn.access: 127.0.0.1:40770 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:49:54,932 [INFO] uvicorn.access: 127.0.0.1:35186 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:50:54,935 [INFO] uvicorn.access: 127.0.0.1:51722 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:51:54,930 [INFO] uvicorn.access: 127.0.0.1:41824 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:52:54,942 [INFO] uvicorn.access: 127.0.0.1:42504 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:53:54,937 [INFO] uvicorn.access: 127.0.0.1:50226 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:54:54,939 [INFO] uvicorn.access: 127.0.0.1:42402 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:55:54,939 [INFO] uvicorn.access: 127.0.0.1:59064 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:56:54,940 [INFO] uvicorn.access: 127.0.0.1:41536 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:57:54,938 [INFO] uvicorn.access: 127.0.0.1:45504 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:58:45,299 [INFO] uvicorn.access: 127.0.0.1:56334 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:58:49,934 [INFO] uvicorn.access: 127.0.0.1:56334 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:59:04,942 [INFO] uvicorn.access: 127.0.0.1:33206 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:59:19,943 [INFO] uvicorn.access: 127.0.0.1:48334 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:59:34,939 [INFO] uvicorn.access: 127.0.0.1:59704 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 18:59:54,930 [INFO] uvicorn.access: 127.0.0.1:59272 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:00:54,934 [INFO] uvicorn.access: 127.0.0.1:42136 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:01:54,941 [INFO] uvicorn.access: 127.0.0.1:57610 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:02:54,932 [INFO] uvicorn.access: 127.0.0.1:34308 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:03:54,942 [INFO] uvicorn.access: 127.0.0.1:46216 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:04:54,931 [INFO] uvicorn.access: 127.0.0.1:37928 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:05:54,940 [INFO] uvicorn.access: 127.0.0.1:60944 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:06:11,842 [INFO] uvicorn.access: 127.0.0.1:35840 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:06:19,867 [INFO] uvicorn.access: 127.0.0.1:41628 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:06:34,877 [INFO] uvicorn.access: 127.0.0.1:35518 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:06:49,881 [INFO] uvicorn.access: 127.0.0.1:55678 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:07:04,875 [INFO] uvicorn.access: 127.0.0.1:59118 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:07:19,884 [INFO] uvicorn.access: 127.0.0.1:52060 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:07:34,867 [INFO] uvicorn.access: 127.0.0.1:33474 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:07:49,870 [INFO] uvicorn.access: 127.0.0.1:54514 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:08:04,935 [INFO] uvicorn.access: 127.0.0.1:60554 - "GET /api/local/push-outbox?pending_only=true HTTP/1.1" 200
+2026-08-05 19:08:10,855 [INFO] uvicorn.error: Shutting down
+2026-08-05 19:08:10,957 [INFO] uvicorn.error: Waiting for application shutdown.
+2026-08-05 19:08:10,960 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-08-05 19:08:10,962 [INFO] uvicorn.error: Application shutdown complete.
+2026-08-05 19:08:10,962 [INFO] uvicorn.error: Finished server process [86458]
